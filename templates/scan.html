@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2>AI-Based Malware Detection</h2>
+
+<form action="/scan" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" required>
+    <button type="submit">Predict</button>
+</form>
+
+{% if result %}
+<h3>Result: {{ result }}</h3>
+{% endif %}
+
+{% endblock %}

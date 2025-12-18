@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+.container {
+    width: 420px;
+    margin: 100px auto;
+    text-align: center;
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 25px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+    background: #2563eb;
+    color: white;
+    border-radius: 5px;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.safe {
+    color: #22c55e;
+}
+
+.malicious {
+    color: #ef4444;
+}

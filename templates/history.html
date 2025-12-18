@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2>Previous Scans</h2>
+
+<table>
+<tr><th>File</th><th>Result</th><th>Time</th></tr>
+{% for scan in scans %}
+<tr>
+<td>{{ scan[0] }}</td>
+<td>{{ scan[1] }}</td>
+<td>{{ scan[2] }}</td>
+</tr>
+{% endfor %}
+</table>
+
+{% endblock %}
